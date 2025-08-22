@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumail Ahmed </title>
+ <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">KUMAIL AHMED KAKAR</div>
+      <button id="menu-btn"><i class="fas fa-bars"></i></button>
+      <ul id="menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <img src="Assests/me.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Hi, I'm Kumail Ahmed</h1>
+    <p>Cyber Security Activist | Penetration Tester | Web Developer</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Cyber Security Activist and Penetration Tester with strong knowledge in 
+      network security, Linux, Ubuntu, Python, and modern web development. Passionate 
+      about securing digital assets and exploring new technologies.
+    </p>
+    <p>
+      I am a Certified Cybersecurity Penetration Tester from Blue Team & AI, and I also hold certifications in Generative AI and Prompt Engineering from Google.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">
+        <span class="skill-icon">🛡️</span>
+        <p>Cyber Security Activist</p>
+        <div class="skill-bar" data-skill="95"></div>
+      </div>
+      <div class="skill-box">
+        <span class="skill-icon">🕵️</span>
+        <p>Penetration Testing</p>
+        <div class="skill-bar" data-skill="90"></div>
+      </div>
+      <div class="skill-box">
+        <span class="skill-icon">🐧</span>
+        <p>Linux</p>
+        <div class="skill-bar" data-skill="85"></div>
+      </div>
+      <div class="skill-box">
+        <span class="skill-icon">💻</span>
+        <p>Ubuntu</p>
+        <div class="skill-bar" data-skill="80"></div>
+      </div>
+      <div class="skill-box">
+        <span class="skill-icon">🤖</span>
+        <p>Prompt Engineering</p>
+        <div class="skill-bar" data-skill="75"></div>
+      </div>
+      <div class="skill-box">
+        <span class="skill-icon">🌍</span>
+        <p>Web Development</p>
+        <div class="skill-bar" data-skill="85"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio showcasing my skills and projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Penetration Testing Lab</h3>
+        <p>Custom-built test environment for practicing ethical hacking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:kumailahmedofficial@gmail.com">kumailahmedofficial@gmail.com</a>
+    </p>
+    <p>
+      <i class="fab fa-whatsapp"></i>
+      <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a>
+    </p>
+    <p>
+      <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Kumail Ahmed. All rights reserved.</p>
+  </footer>
+</body>
+</html>
